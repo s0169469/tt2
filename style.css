@@ -1,0 +1,77 @@
+.wrapper {
+    text-align: center;
+}
+.hyperlinks {
+    text-align: left;
+    background-color: lightcyan;
+    border-bottom: 10px solid white;
+    margin: auto;
+}
+.tabletask {
+    width:100%;
+    font-size:25px;
+    font-family: sans-serif;
+    font-style:normal;
+    border:3px solid black;
+    border-collapse: collapse;
+    background-color: thistle;
+  }
+  tbody tr:nth-child(odd) {
+    background-color:mediumstateblue;/* фон нечетных строк */
+  }
+
+  tbody tr:nth-child(even) {
+
+    background-color:blueviolet;/* фон четных строк */
+
+  }
+  th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+header {
+    text-align: center;
+    letter-spacing: 1px;
+    background: cadetblue;
+    color: black;
+}
+.logo {
+    width: 120px;
+    float: left;
+    margin-bottom: 0px;
+    text-align: left;
+}
+h1, h2 {
+    text-align: center;
+    font-size: 50px;
+    color: darkkhaki;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    font-size: 20px;
+    margin: auto;
+    text-align: left;
+    max-width: 960px;
+    background-color: aqua;
+    border-bottom: 20px solid white;
+}
+.menu a {
+    color: peachpuff;
+}
+.content {
+    max-width: 960px;
+    text-align: center;
+    margin: auto;
+}
+form {
+    border-top: 10px solid white;
+    background-color: tan;
+    color: black;
+}
+footer {
+    font-size: 20px;
+    background-color: linen;
+    text-align: left;
+}
