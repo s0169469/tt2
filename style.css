@@ -1,5 +1,5 @@
 .wrapper {
-    text-align: center;
+    text-align: left;
 }
 .hyperlinks {
     text-align: left;
@@ -62,7 +62,7 @@ a {
 }
 .content {
     max-width: 960px;
-    text-align: center;
+    text-align: left;
     margin: auto;
 }
 form {
