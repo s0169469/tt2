@@ -38,6 +38,11 @@ header {
 .logo {
     width: 200px;
     float: left;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
 }
 h1, h2 {
     text-align: center;
