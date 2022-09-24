@@ -36,13 +36,8 @@ header {
     color: black;
 }
 .logo {
-    width: 129px;
+    width: 200px;
     float: left;
-    margin-bottom: 0px;
-    text-align: right;
-    align-items: normal;
-    position: relative;
-    left: 200px;
 }
 h1, h2 {
     text-align: center;
@@ -66,7 +61,7 @@ a {
     align-content: space-between;
 }
 .menu a {
-    color: peachpuff;
+    color: black;
 }
 .content {
     max-width: 960px;
