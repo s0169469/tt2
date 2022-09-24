@@ -86,68 +86,115 @@
                 
               <h2> Форма </h2>
               <a id = "form"></a>
-              <form action="http://anketa.com"
-               method="POST">
-                  <label>
-                    Введите ФИО:<br/>
-                    <input name="field-name"
-                    value="Кузнецова Софья Николаевна" />
-                  </label><br/>
-                  <label>
-                    Поле ввода e-mail:<br/>
-                    <input name ="field-email"
-                    type = "email"
-                    placeholder = "введите адрес электронной почты" />
-                  </label><br/>
-                  <label>
-                    Введите дату Вашего рождения:<br/>
-                    <input name = "field-date"
-                    value = "2003-09-13"
-                    type = "date" />
-                  </label><br/>
-                  Укажите Ваш пол:<br/>
-                  <label><input type="radio" checked="checked"
-                    name="radio-group-1" value="Значение1" />
-                    Женский</label>
-                  <label><input type="radio"
-                    name="radio-group-2" value="Значение2" />
-                    Мужской</label><br/>
-                    Сколько у Вас конечностей?:<br/>
-                  <label><input type="radio" checked="checked"
-                    name="radio-group-1" value="Значение1" />
-                  0</label>
-                  <label><input type="radio"
-                    name="radio-group-2" value="Значение2" />
-                  1</label>
-                  <label><input type="radio"
-                    name="radio-group-3" value="Значение3" />
-                  2</label>
-                  <label><input type="radio"
-                    name="radio-group-4" value="Значение4" />
-                  3</label>
-                  <label><input type="radio"
-                    name="radio-group-5" value="Значение5" />
-                  4</label>
-                  <br/>
-                  <label>
-                    Какие сверхспособности вы имеете?:<br/>
-                    <select name="field-name-сверх">
-                    <option value="Значение1">Бессмертие</option>
-                    <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
-                    <option value="Значение3">Левитация</option>
-                    </select>
-                  </label><br/>
-                  <label>
-                    Ваша биография:<br />
-                    <textarea name="field-name-биогр">Расскажите о себе...</textarea>
-                  </label><br />
-                    Ознакомьтесь с контрактом:<br/>
-                  <label>
-                    <input type="checkbox" checked="checked"
-                    name="check-1" />
-                    С контрактом ознакомлен(а)
-                  </label><br/>
-                    <input type="submit" value="Отправить" />
+              <form id="myform"
+                    action="/"
+                    method="POST">
+                    <ol>
+                        <li>
+                            <label>
+                                Введите ваше ФИО:
+                                <input name="name"
+                                    type="text" 
+                                    placeholder="Кузнецова Софья Николаевна " />
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                Введите вашу электронную почту:
+                                <input name="email"
+                                    type="email" 
+                                    placeholder="kuznetsovasf@yandex.ru" />
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                Введите дату вашего рождения:
+                                <input name="birthdate"
+                                    type="date" />
+                            </label>
+                        </li>
+                        <li>
+                            Выберите ваш пол: 
+                            <br />
+                            <label>
+                                <input type="radio" 
+                                    checked="checked"
+                                    name="gender" 
+                                    value="M" />
+                                Мужской
+                            </label>
+                            <label>
+                                <input type="radio"
+                                    name="gender" 
+                                    value="Ж" />
+                                Женский
+                            </label>
+                        </li>
+                        <li>
+                            Сколько у вас конечностей: 
+                            <br />
+                            <label>
+                                <input type="radio"
+                                    name="bodyparts" 
+                                    value="1" />
+                                1
+                            </label>
+                            <label>
+                                <input type="radio"
+                                    name="bodyparts" 
+                                    value="2" />
+                                2
+                            </label>
+                            <label>
+                                <input type="radio"
+                                    name="bodyparts" 
+                                    value="3" />
+                                3
+                            </label>
+                            <label>
+                                <input type="radio"
+                                    checked="checked"
+                                    name="bodyparts" 
+                                    value="4" />
+                                4
+                            </label>
+                        </li>
+                        <li>
+                            Какие у вас сверхспособности?
+                            <br />
+                            <select name="superpowers"
+                                multiple="multiple">
+                                <option value="Бессмертие"> 
+                                    Бессмертие 
+                                </option>
+                                <option value="Прохождение_сквозь_стены"> 
+                                    Прохождение сквозь стены 
+                                </option>
+                                <option value="Левитация"> 
+                                    Левитация 
+                                </option>
+                            </select>
+                        </li>
+                        <li>
+                            <label>
+                                Ваша биография:
+                                <br />
+                                <textarea name="biography"> 
+                                    Расскажите о себе...
+                                </textarea>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" 
+                                    checked="checked"
+                                    name="contract" />
+                                с контрактом ознакомлен (а)
+                            </label>
+                        </li>
+                    </ol>
+                    <input type="submit" 
+                        value="Отправить" />
               </form>
              
             </div>
